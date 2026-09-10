@@ -4,6 +4,8 @@
  -Ioan Alexander Valenzuela Vasquez
 
  -Dire Daniel Espinal Pecho
+
+ -Preston Rodrigo Cordova Bedon
     
 ## Flujo básico de trabajo
 
