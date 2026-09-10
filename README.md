@@ -6,6 +6,8 @@
  -Dire Daniel Espinal Pecho
 
  -Preston Rodrigo Cordova Bedon
+
+ -Luis Augusto Pareja Gavilan
     
 ## Flujo básico de trabajo
 
