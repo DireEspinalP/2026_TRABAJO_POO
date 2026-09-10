@@ -2,6 +2,7 @@
 
 ## Lista de integrantes: 
  -Ioan Alexander Valenzuela Vasquez
+ 
  -Dire Daniel Espinal Pecho
     
 ## Comandos Obligatorios
