@@ -2,8 +2,9 @@
 
 ## Lista de integrantes: 
  -Ioan Alexander Valenzuela Vasquez
+ -Dire Daniel Espinal Pecho
     
-## Comandos Basicos
+## Comandos Obligatorios
   ```bash    
     git pull
 
