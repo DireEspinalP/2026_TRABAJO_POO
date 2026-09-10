@@ -5,60 +5,32 @@
 
  -Dire Daniel Espinal Pecho
     
-## Flujo de trabajo en equipo (Fork + Sincronización)
+## Flujo básico de trabajo
 
-Antes de empezar, cada colaborador ya debe tener:
-- El repositorio clonado (`git clone`)
-- Su propio Fork configurado como `origin`
-- El repo principal configurado como `upstream`
-
-### Pasos para modificar código
-
-1. **Sincronizar tu rama `main` con el repo principal**
+1. **Sincroniza:**
 ```bash
-   git fetch upstream
    git checkout main
-   git merge upstream/main
+   git pull upstream main
 ```
 
-2. **Crear una nueva rama para tu tarea**
+2. **Crea tu rama:**
 ```bash
    git checkout -b nombre-tarea
 ```
 
-3. **Realizar tus cambios en el código**
-   - Trabaja únicamente en tu rama.
-   - Evita modificar archivos que no correspondan a tu tarea.
-
-4. **Guardar tus cambios (commit)**
+3. **Trabaja y guarda cambios:**
 ```bash
    git add .
-   git commit -m "Descripción clara del cambio"
+   git commit -m "descripción del cambio"
 ```
 
-5. **Subir tu rama a tu Fork**
+4. **Sube tu rama a tu Fork:**
 ```bash
    git push origin nombre-tarea
 ```
 
-6. **Abrir un Pull Request**
-   - Ve a tu Fork en GitHub.
-   - Crea un Pull Request desde tu rama hacia `main` del repositorio principal.
-   - Escribe una descripción clara de lo que hiciste.
+5. **Abre un Pull Request** en GitHub hacia `main` del repo principal.
 
-7. **Revisión y aprobación**
-   - El propietario del repositorio revisa el Pull Request.
-   - Si todo está correcto, se aprueba el Merge.
+6. **Espera el Merge** del propietario.
 
-8. **Sincronizar nuevamente antes de la siguiente tarea**
-```bash
-   git fetch upstream
-   git checkout main
-   git merge upstream/main
-```
-
-### Buenas prácticas
-- No trabajar directamente sobre `main`.
-- Un archivo o módulo por persona, para evitar conflictos.
-- Commits pequeños y descriptivos.
-- Sincronizar siempre antes de iniciar una nueva tarea.
+7. **Repite desde el paso 1** para tu siguiente tarea.
