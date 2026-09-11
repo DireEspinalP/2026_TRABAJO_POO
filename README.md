@@ -8,6 +8,9 @@
  -Preston Rodrigo Cordova Bedon
 
  -Luis Augusto Pareja Gavilan
+
+ - Anthonella Fernanda Vegas Villava
+
     
 ## Flujo básico de trabajo
 
