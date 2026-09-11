@@ -11,6 +11,8 @@
 
  - Anthonella Fernanda Vegas Villava
 
+ - Javier Aguirre Soto
+
     
 ## Flujo básico de trabajo
 
